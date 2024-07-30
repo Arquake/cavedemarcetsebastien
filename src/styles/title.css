@@ -1,0 +1,8 @@
+.title {
+    @apply w-full;
+    background-image: url("../assets/grille.png");
+}
+
+.title-style {
+    @apply 2xl:text-2xl xl:text-xl text-lg font-bold tracking-normal p-2 mb-4
+}
