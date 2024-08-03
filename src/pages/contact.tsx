@@ -67,9 +67,10 @@ const Contact = () => {
                     </div>
                     <div
                         className="3xl:col-span-2 lg:col-span-3 col-span-full lg:h-full sm:h-96 h-64 lg:mt-0 mt-8 w-full">
-                        <iframe className="w-full h-full  mt-4"
-                                src="http://maps.google.fr/maps?f=q&amp;source=s_q&amp;hl=fr&amp;geocode=&amp;q=cave+de+marc+et+sebastien+orleans&amp;sll=47.890046,1.906128&amp;sspn=0.043569,0.084372&amp;ie=UTF8&amp;ll=47.890046,1.906128&amp;spn=0.069065,0.102997&amp;z=12&amp;output=embed"></iframe>
-
+                        <iframe className="w-full h-full mt-4 border-0"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d42817.275748827145!2d1.8761980966294645!3d47.876783482524345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e4e4d0de44720d%3A0x2f1535db46f32aa3!2sCaves%20Marc%20et%20S%C3%A9bastien!5e0!3m2!1sfr!2sfr!4v1722681746352!5m2!1sfr!2sfr"
+                                width="600" height="450" loading="lazy"
+                        referrerPolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
 

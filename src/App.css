@@ -20,3 +20,11 @@ body {
         scroll-behavior: auto !important;
     }
 }
+
+.watermark {
+    @apply absolute w-full h-full;
+    pointer-events: none;
+    background-image: url("/src/assets/watermark.png");
+    background-repeat: repeat;
+    opacity: 50%;
+}

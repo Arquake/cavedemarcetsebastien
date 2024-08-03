@@ -22,8 +22,15 @@ const router = createBrowserRouter(
                 </header>
                 <Outlet/>
                 <Footer/>
-
             </>,
+        errorElement: <>
+            <header>
+                <Navbar/>
+                <Logo/>
+            </header>
+            <Accueil/>
+            <Footer/>
+        </>,
         children:
         [
             {
@@ -60,7 +67,8 @@ function App() {
   return (
       <>
           <RouterProvider router={router}/>
-          <Outlet />
+          <Outlet/>
+          <div className="watermark" />
       </>
   )
 }
