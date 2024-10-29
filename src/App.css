@@ -26,5 +26,5 @@ body {
     pointer-events: none;
     background-image: url("/src/assets/watermark.png");
     background-repeat: repeat;
-    opacity: 50%;
+    opacity: 10%;
 }
